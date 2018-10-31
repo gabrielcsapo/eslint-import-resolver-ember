@@ -1,0 +1,31 @@
+{
+  "name": "eslint-import-resolver-ember",
+  "version": "0.0.0",
+  "description": "🗺 import resolver for ember",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --write index.js",
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielcsapo/eslint-import-resolver-ember.git"
+  },
+  "keywords": [
+    "eslint",
+    "ember"
+  ],
+  "author": "Gabriel J. Csapo <gabecsapo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabrielcsapo/eslint-import-resolver-ember/issues"
+  },
+  "homepage": "https://github.com/gabrielcsapo/eslint-import-resolver-ember#readme",
+  "dependencies": {
+    "resolve": "^1.8.1",
+    "tape": "^4.9.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.14.3"
+  }
+}
