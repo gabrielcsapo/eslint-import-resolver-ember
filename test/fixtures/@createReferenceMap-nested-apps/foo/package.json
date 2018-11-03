@@ -1,0 +1,9 @@
+{
+  "name": "foo",
+  "ember-addon": {
+    "configPath": "ember-config",
+    "paths": [
+      "./lib"
+    ]
+  }
+}
